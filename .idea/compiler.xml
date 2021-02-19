@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Demo" />
         <module name="APP1" />
+        <module name="Demo" />
+        <module name="spring-boot" />
+        <module name="SpringDemo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +17,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="APP1" options="-parameters" />
       <module name="Demo" options="-parameters" />
+      <module name="SpringDemo" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
     </option>
   </component>
 </project>
